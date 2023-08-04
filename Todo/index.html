@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practice html</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="description">
+        <h1>Details of thesis</h1>
+    </div>
+    <div id="main">
+
+        <p class="part-one">life is precious.Don't waste your time.
+            do hardwork it will give your fruitfull result.
+            i love your hardwork but my small suggestion is
+            that along with hard workd you should do smart work too</p>
+
+        <div>
+            <img id="part-two" src="banner.jpg" atr="banner">
+
+        </div>
+    </div>
+    <table id="main-table">
+        <tr>
+            <th>name</th>
+            <th colspan="2">subject</th>
+            <th>school</th>
+        </tr>
+
+        <tr>
+            <td>namrata</td>
+            <td colspan="2">science</td>
+            <td>choubey colony</td>
+        </tr>
+
+        <tr>
+            <td>praveen</td>
+            <td colspan="2">mathamatics</td>
+            <td>bharatmataa</td>
+        </tr>
+
+
+    </table>
+
+
+    <div id="Application">
+        <h2>Fill Application</h2>
+        <form id="Application-form">
+            <div class="form-group">
+                <label for="name">name</label><br>
+                <input type="name" id="name" name="name" required placeholder="john dey">
+
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="888888888">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date OF Birth</label><br>
+                <input type="date" id="dob" name="date of birth" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied</label><br>
+                <select id="position" name="position" required>
+                    <option value="">select an option</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="backend developer">Backend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+
+                <div class="form-group">
+                    <label for="resume">Upload Resume</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc,.docx" required>
+                </div>
+
+
+
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5" required
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

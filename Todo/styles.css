@@ -1,0 +1,70 @@
+#main {
+    display: flex;
+    font-size: x-large;
+}
+
+#part-one {
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+}
+
+#part-two {
+    height: 100%; 
+    width: 100%;
+}
+#description {
+    text-align: center;
+}
+#main-table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 8px;
+    border: 5px;
+    margin: 10px;
+}
+
+#main-table th {
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: aquamarine;
+    
+}
+
+#main-table td {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 1px;
+    background-color: darkkhaki;
+   
+}
+
+#text {
+    
+    width: auto;
+
+
+}
+#Application {
+    width: 800px;
+    margin: 2px auto;
+    padding: 8px auto;
+}
+
+#Application-form label {
+    font-weight: 600;
+}
+
+#Application-form input {
+    font-size: x-large;
+    padding: 8px;
+}
+
+
+
+
+
